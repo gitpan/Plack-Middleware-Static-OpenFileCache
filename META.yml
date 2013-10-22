@@ -33,7 +33,7 @@ no_index:
 provides:
   Plack::Middleware::Static::OpenFileCache:
     file: lib/Plack/Middleware/Static/OpenFileCache.pm
-    version: 0.01
+    version: 0.02
   Plack::Middleware::Static::OpenFileCache::IOWithPath:
     file: lib/Plack/Middleware/Static/OpenFileCache.pm
 requires:
@@ -44,4 +44,4 @@ resources:
   bugtracker: https://github.com/kazeburo/Plack-Middleware-Static-OpenFileCache/issues
   homepage: https://github.com/kazeburo/Plack-Middleware-Static-OpenFileCache
   repository: git://github.com/kazeburo/Plack-Middleware-Static-OpenFileCache.git
-version: 0.01
+version: 0.02
